@@ -4,8 +4,6 @@ import pandas as pd
 import numpy as np
 from scipy.stats import percentileofscore
 import matplotlib.pyplot as plt
-plt.rcParams['text.usetex'] = True
-plt.rcParams['text.latex.preamble'] = r'\usepackage{amsmath}'
 
 
 def quasi_arbitrage():
